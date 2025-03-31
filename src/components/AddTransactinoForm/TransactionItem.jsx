@@ -1,10 +1,10 @@
 import PropTypes from 'prop-types';
-import { useDispatch } from 'react-redux';
+// import { useDispatch } from 'react-redux';
 import { TableRow, TableCell, Button } from '@mui/material';
 import EditIcon from '@mui/icons-material/Edit';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import { deleteTransactionThunk } from '../../redux/transaction/transactionOperations';
-import { updateTransactionThunk } from '../../redux/transaction/transactionOperations';
+// import { deleteTransactionThunk } from '../../redux/transaction/transactionOperations';
+// import { updateTransactionThunk } from '../../redux/transaction/transactionOperations';
 
 
 const theme = createTheme({
@@ -38,15 +38,15 @@ const TransactionItem = ({
   onUpdateTransaction,
 }) => {
 
-  const dispatch = useDispatch();
+  // const dispatch = useDispatch();
 
-  const handleDelete = () => {
-    dispatch(deleteTransactionThunk(id));
-  };
+  // const handleDelete = () => {
+  //   dispatch(deleteTransactionThunk(id));
+  // };
 
-  const handleUpdate = () => {
-    dispatch(updateTransactionThunk(id));
-  };
+  // const handleUpdate = () => {
+  //   dispatch(updateTransactionThunk(id));
+  // };
   
   return (
     <ThemeProvider theme={theme}>

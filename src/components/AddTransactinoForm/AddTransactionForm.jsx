@@ -380,14 +380,12 @@ const AddTransactionForm = ({ open, onClose, onSubmit }) => {
                 <Button
                   type="submit"
                   sx={{
-                    // padding: '10px 20px',
                     backgroundColor: '#6a0dad',
                     color: '#fff',
                     border: 'none',
                     borderRadius: '10px',
                     cursor: 'pointer',
                     background: 'linear-gradient(to right, orange, violet)',
-                    color: 'white',
                     padding: '7px 80px',
                     fontWeight: 'bold',
                     '&:hover': {
